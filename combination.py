@@ -2,7 +2,7 @@ import numpy as np
 
 # implement your function to combine two numpy arrays 
 
-def combine(arr1, arr2, axis=0):
+def combination(arr1, arr2, axis=0):
     # Remove unnecessary dimensions
     arr1, arr2 = np.squeeze(arr1), np.squeeze(arr2)
     
